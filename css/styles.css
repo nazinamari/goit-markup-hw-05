@@ -375,8 +375,8 @@ body {
 .team-item-content {
   padding-top: 30px;
   padding-bottom: 30px;
-  padding-left: 32px;
-  padding-right: 32px;
+  padding-left: 25px;
+  padding-right: 25px;
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
   background-color: #ffffff;
@@ -385,7 +385,7 @@ body {
 .team-item-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.19;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-title-color);
@@ -393,7 +393,7 @@ body {
 
 .team-item-text {
   font-size: 16px;
-  line-height: 1.19;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--first-text-color);
@@ -404,8 +404,12 @@ body {
 .team-social-list {
   display: inline-flex;
   justify-content: center;
+  align-items: center;
 }
 
+.team-social-list + .team-social-list {
+  padding-left: 10px;
+}
 .team-social-item {
   width: 44px;
   height: 44px;
@@ -419,11 +423,9 @@ body {
   align-items: center;
   justify-content: center;
   color: var(--social-links);
+  fill: currentColor;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.team-social-icon {
-  fill: currentColor;
 }
 
 .team-social-link:hover,
