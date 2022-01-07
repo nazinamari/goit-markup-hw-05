@@ -353,7 +353,7 @@ body {
   background-color: #f5f4fa;
 }
 .team-title {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .team-list {
   display: flex;
@@ -383,6 +383,7 @@ body {
 }
 
 .team-item-name {
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -397,8 +398,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--first-text-color);
-  padding-top: 10px;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .team-social-list {
